@@ -1,0 +1,90 @@
+@media (min-width: 375px) and (max-width: 768px) {
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        height: 735px;
+
+        &_h1 {
+            padding-top: 238px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;          
+            text-align: center;
+        }
+        &_text {
+            margin: 32px auto;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+        &_link {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+            &:hover {
+                transform: translate(-50%, 0) scale(1.05);
+            }
+        }
+    }
+
+    .game {
+
+        &_content {
+            justify-content: center;
+            flex-direction: column;
+            gap: 32px;
+        }
+    }
+    
+    .seasons {
+        padding-top: 51px;
+        padding-bottom: 85px;
+        flex-direction: column;
+        gap: 64px;
+
+        &_second {
+            flex-direction: column-reverse;
+        }
+        &_content {
+            &_header {
+                text-align: center;
+                font-size: 32px;
+                line-height: 39px;
+            }
+            &_text {
+                text-align: center;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            &_btn {
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+                &:hover {
+                    transform: translate(-50%, 0) scale(1.05);
+                }
+            }
+        }
+        &_img {
+            max-width: 344px;
+        }
+    }
+    .last {
+
+        &_content {
+            &_header {
+                margin-top: 52px;
+                font-size: 32px;
+                line-height: 39px;
+            }
+            &_text {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}

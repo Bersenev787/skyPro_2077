@@ -1,0 +1,13 @@
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    .container {
+        padding-left: calc(50% - 480px);
+        padding-right: calc(50% - 480px);
+    }
+
+    .game {
+        &_content {
+            gap: 32px;
+        }
+    }
+}

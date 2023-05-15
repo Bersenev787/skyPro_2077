@@ -1,0 +1,36 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .header {
+        height: 850px;
+    }
+
+    .game {
+
+        &_content {
+            gap: 32px;
+        }
+    }
+    
+    .seasons {
+        gap: 90px;
+
+        &_content {
+            &_header {
+                font-size: 32px;
+                line-height: 39px;
+            }
+            &_text {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+        &_img {
+            max-width: 350px;
+        }
+    }
+}

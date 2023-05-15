@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SkyPro 2077</title>
+</head>
+<body>
+    <header class="header container">
+        <h1 class="header_h1">
+            Добро пожаловать на мой сайт!
+        </h1>
+        <p class="header_text">
+            Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span> поехали </span> и <span> приступай </span>
+        </p>
+        <a class="header_link" href="#game">Поехали!<span class="header_link_flare"></span></a>
+    </header>
+    <section class="game container" id="game">
+        <div class="game_content">
+            <div class="game_content_blok">
+                <a class="game_content_blok_link" href="#game_1">
+                    <img src="img/game_1.jpg" alt="image">
+                </a>
+                <p class="game_content_blok_text">Времена Года</p>
+            </div>
+            <div class="game_content_blok">
+                <a class="game_content_blok_link" href="#game_2">
+                    <img src="img/game_2.jpg" alt="image">
+                </a>
+                <p class="game_content_blok_text">Запомни слова</p>
+            </div>
+            <div class="game_content_blok">
+                <a class="game_content_blok_link" href="#game_3">
+                    <img src="img/game_3.jpg" alt="image">
+                </a>
+                <p class="game_content_blok_text">Игра в загадки</p>
+            </div>
+        </div>
+    </section>
+    <section class="seasons container" id="game_1">
+        <div class="seasons_content">
+            <h2 class="seasons_content_header">Времена года!</h2>
+            <p class="seasons_content_text">
+                Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится
+            </p>
+            <button class="seasons_content_btn" onclick="seasons()";>
+                Играть!<span class="header_btn_flare"></span>
+            </button>
+        </div>
+        <img class="seasons_img" src="img/seasong_img.png" alt="image">
+    </section>
+    <section class="seasons seasons_second container" id="game_2">
+        <img class="seasons_img" src="img/game_2_img.png" alt="image">
+        <div class="seasons_content">
+            <h2 class="seasons_content_header">Запомни слова</h2>
+            <p class="seasons_content_text">
+                При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.
+            </p>
+            <button class="seasons_content_btn" onclick="words()";>
+                Играть!
+            </button>
+        </div>
+    </section>
+    <section class="last container" id="game_3">
+        <div class="last_content">
+            <h2 class="last_content_header">Игра в загадки</h2>
+            <p class="last_content_text">
+                Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.
+            </p>
+            <button class="last_content_btn" onclick="puzzle()";>
+                Играть!
+            </button>
+        </div>
+    </section>
+    <footer class="footer container">
+        <p class="footer_text">Все права защищены</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
